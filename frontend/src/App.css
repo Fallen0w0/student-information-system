@@ -1,0 +1,143 @@
+/* Clean, Decent, Old-School Enterprise UI Styles */
+body {
+  background-color: #f4f4f4;
+  color: #222;
+  font-family: Tahoma, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+}
+
+.headerBox {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin: 0 0 5px 0;
+  font-size: 22px;
+  color: #111;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.cardTitle {
+  margin: 0 0 15px 0;
+  font-size: 15px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  fontSize: 12px;
+  fontWeight: bold;
+  color: #444;
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 13px;
+  font-family: Tahoma, Arial, sans-serif;
+  outline: none;
+}
+
+.button {
+  margin-top: 8px;
+  padding: 9px 16px;
+  background-color: #e0e0e0;
+  border: 1px solid #adadad;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.alert {
+  background-color: #eef9ef;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.trHead {
+  background-color: #eaeaea;
+  text-align: left;
+}
+
+.th {
+  border: 1px solid #d0d0d0;
+  padding: 8px;
+  color: #333;
+  font-weight: bold;
+}
+
+.tr {
+  border-bottom: 1px solid #eee;
+}
+
+.td {
+  border: 1px solid #e0e0e0;
+  padding: 8px;
+  color: #333;
+}
+
+.emptyText {
+  font-size: 13px;
+  color: #777;
+  font-style: italic;
+  margin: 0;
+}
