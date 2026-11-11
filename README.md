@@ -33,8 +33,3 @@ Open a second terminal, navigate to the frontend folder, and start the developme
 * npm run dev
 
 (Open your browser and visit http://localhost:5173 to use the application)
-
-## How to Close the Project
-1. Stop the Backend Server: Go to your backend terminal window and press Ctrl + C, then confirm if prompted.
-2. Stop the Frontend App: Go to your frontend terminal window and press Ctrl + C.
-3. Stop the Database: Open your XAMPP Control Panel and click Stop next to Apache and MySQL.
